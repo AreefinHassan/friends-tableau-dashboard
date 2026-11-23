@@ -1,10 +1,21 @@
 # Friends Tableau Dashboard
 
-An interactive Tableau dashboard on the TV show **Friends** (1994–2004), built from episode-level data for all 10 seasons.
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+![Episodes](https://img.shields.io/badge/Episodes-236-blue?style=for-the-badge)
+![Seasons](https://img.shields.io/badge/Seasons-10-green?style=for-the-badge)
 
 ![Friends cast](images/friends-cast.jpg)
 
-## What the dashboard shows
+An interactive Tableau dashboard on the TV show **Friends** (1994–2004), built from episode-level data for all 10 seasons.
+
+## Highlights
+
+- **236 episodes** across **10 seasons** (1994–2004)
+- **11 worksheets** in a single dashboard — ratings, votes, runtimes, directors, and episode descriptions
+- **Top directors:** Kevin Bright (54 episodes) and Gary Halvorson (54 episodes), followed by Michael Lembeck (24) and James Burrows (15)
+- Episode ratings range from **6.9 to 9.7 stars**, with runtimes of **22–30 minutes**
+
+## What's in the Dashboard
 
 **Dashboard 1** brings together 11 worksheets:
 
@@ -35,9 +46,7 @@ An interactive Tableau dashboard on the TV show **Friends** (1994–2004), built
 | Total stars | Average rating (6.9–9.7) |
 | Total votes | Number of ratings |
 
-Most episodes were directed by Kevin Bright (54) and Gary Halvorson (54), followed by Michael Lembeck (24) and James Burrows (15).
-
-## How to open it
+## How to Open
 
 1. Open `tableau/Friends_Dashboard.twb` in Tableau Desktop.
 2. The workbook reads its data from `../data/Friends_dataset.csv` and its cast image from `../images/friends-cast.jpg`, relative to the workbook — keep the folder structure as it is and everything loads automatically.
@@ -47,6 +56,7 @@ Most episodes were directed by Kevin Bright (54) and Gary Halvorson (54), follow
 ```
 friends-tableau-dashboard/
 ├── README.md
+├── LICENSE
 ├── tableau/
 │   └── Friends_Dashboard.twb   # The dashboard (Tableau 18.1 workbook format)
 ├── data/
@@ -56,6 +66,8 @@ friends-tableau-dashboard/
     ├── friends-cast-couch.jpg      # Cast on the Central Perk couch
     └── friends-cast-milkshakes.jpg # Cast with milkshakes
 ```
+
+Two more cast photos live in `images/` — the cast on the Central Perk couch (`friends-cast-couch.jpg`) and the cast with milkshakes (`friends-cast-milkshakes.jpg`).
 
 ## Notes
 
